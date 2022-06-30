@@ -1,0 +1,60 @@
+.auth-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #EE523A;
+  color: #000000;
+}
+
+.page-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  height: 75vh;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text-field {
+  width: 90%;
+  height: 40px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+.text-field[type="date"] {
+  color: #fff;
+  font-weight: 600;
+  content: attr(placeholder) !important;
+}
+
+.text-field::placeholder {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.text-field:focus {
+  outline: none;
+  border: none;
+  border-bottom: #fff;
+}
+
+.button-register {
+  background-color: #fff;
+  color: #EE523A;
+  border: none;
+  width: 90%;
+  height: 40px;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
